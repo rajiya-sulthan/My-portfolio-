@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Razu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #007bff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+    }
+    .resume-btn {
+      background: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .resume-btn:hover {
+      background-color: #218838;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+      padding: 1rem 0;
+    }
+    img.profile {
+      display: block;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Razu</h1>
+    <p>BCA Student at SDUIM College</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <img src="photo.jpg" alt="Profile Photo" class="profile">
+      <h2>About Me</h2>
+      <p>I'm pursuing BCA in SDUIM College. I’m passionate about learning and growing in the IT field.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:sonurazirs@gmail.com">sonurazirs@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>Resume</h2>
+      <a href="Rajiya_Resume.pdf" download class="resume-btn">Download Resume</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Raju. All rights reserved.
+  </footer>
+</body>
+</html>
